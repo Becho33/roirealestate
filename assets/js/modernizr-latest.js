@@ -1338,7 +1338,7 @@ window.Modernizr = (function( window, document, undefined ) {
     /*>>hasevent*/
 
     /*>>testprop*/
-    // Modernizr.testProp() investigates whether a given style property is recognized
+    // Modernizr.testProp() **igates whether a given style property is recognized
     // Note that the property names must be provided in the camelCase variant.
     // Modernizr.testProp('pointerEvents')
     Modernizr.testProp      = function(prop){
@@ -1347,7 +1347,7 @@ window.Modernizr = (function( window, document, undefined ) {
     /*>>testprop*/
 
     /*>>testallprops*/
-    // Modernizr.testAllProps() investigates whether a given style property,
+    // Modernizr.testAllProps() **igates whether a given style property,
     //   or any of its vendor-prefixed variants, is recognized
     // Note that the property names must be provided in the camelCase variant.
     // Modernizr.testAllProps('boxSizing')
